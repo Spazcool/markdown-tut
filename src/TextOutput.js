@@ -5,7 +5,7 @@ class TextOutput extends Component {
   render() {
     return (
       <div>
-        converted MD to go here.
+        converted MD to go here: {this.props.input}
       </div>
     );
   }

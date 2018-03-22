@@ -29,7 +29,7 @@ class App extends Component {
 
         <div className="container">
           <TextInput handleInput={this.handleUserInput} value={this.state.userInput} />
-          <TextOutput/>
+          <TextOutput input={this.state.userInput}/>
         </div>
 
         <footer>
