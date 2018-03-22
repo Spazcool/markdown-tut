@@ -16,6 +16,7 @@ class App extends Component {
     this.setState({
       userInput: e.target.value
     });
+    console.log(this.state.userInput);
   }
 
   render() {
@@ -27,7 +28,7 @@ class App extends Component {
         </header>
 
         <div className="container">
-          <TextInput onChange={this.handleUserInput} value={this.state.userInput}/>
+          <TextInput handleInput={this.handleUserInput} value={this.state.userInput} />
           <TextOutput/>
         </div>
 
