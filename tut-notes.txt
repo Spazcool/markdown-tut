@@ -12,7 +12,7 @@
 * show the finished product
 
 
-STEP ONE
+# STEPS
 
 https://github.com/facebook/create-react-app
 
@@ -31,3 +31,22 @@ add dumb styled components
 commit
 
 add constructor, super, state to App
+
+commit
+
+pass callback func to input compontent
+
+commit
+
+pass state to output component
+
+commit
+
+install marked library through npm & pass input data to its marked func
+
+commit
+
+style till my eyes no longer hurt
+
+commit
+

@@ -8,7 +8,9 @@ class TextOutput extends Component {
   }
   render() {
     return (
-      <div dangerouslySetInnerHTML = {this.markItUp(marked(this.props.input))}/>
+      <div
+        dangerouslySetInnerHTML = {this.markItUp(marked(this.props.input))}
+        className="box right" />
     );
   }
 }
