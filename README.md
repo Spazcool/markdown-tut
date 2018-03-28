@@ -1,5 +1,7 @@
 # fCC Markdown Tutorial
 
+You can follow along on [YouTube](https://www.youtube.com/watch?v=KxlgRA9FiY4&t=2s)
+
 ## Prerequisites
 
 * Text editor. I like [Atom](https://atom.io/), but it's up to you.
